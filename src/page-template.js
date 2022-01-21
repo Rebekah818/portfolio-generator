@@ -1,4 +1,4 @@
-const generatePage = (name, github) => {
+nodule.exports = (name, github) => {
     return`
     <!DOCTYPE html>
     <html lang="en">
@@ -15,4 +15,3 @@ const generatePage = (name, github) => {
     </html>
     `;
   };
-  module.exports - generatePage;
